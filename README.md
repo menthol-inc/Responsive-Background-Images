@@ -3,15 +3,12 @@
   
 # 📚 How to use
 <pre>
-<code>
-<div class="header bgr-responsive" style="background-image: url(https://via.placeholder.com/1280x720/000000/000000)">
+<code><div class="header bgr-responsive" style="background-image: url(https://via.placeholder.com/1280x720/000000/000000)">
     <bg-resource media="(min-width: 1025px) "
         srcset="https://via.placeholder.com/1280x720/000000/000000"></bg-resource>
     <bg-resource media="(min-width: 0) and (max-width: 639px)" size="cover"
         srcset="https://via.placeholder.com/1280x720/ff0000/ff0000"></bg-resource>
     <bg-resource media="(min-width: 640px) and (max-width: 1024px)" size="cover"
         srcset="https://via.placeholder.com/1024x576/ffff00/ffff00"></bg-resource>
-
-</div>
-<code>
+</div><code>
 </pre>
