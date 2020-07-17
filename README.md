@@ -3,6 +3,7 @@
   
 # 📚 How to use
 <pre>
+<code>
 <div class="header bgr-responsive" style="background-image: url(https://via.placeholder.com/1280x720/000000/000000)">
     <bg-resource media="(min-width: 1025px) "
         srcset="https://via.placeholder.com/1280x720/000000/000000"></bg-resource>
@@ -12,4 +13,5 @@
         srcset="https://via.placeholder.com/1024x576/ffff00/ffff00"></bg-resource>
 
 </div>
+<code>
 </pre>
