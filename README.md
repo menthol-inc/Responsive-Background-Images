@@ -3,7 +3,7 @@
   
 # 📚 How to use
 
-`  <div class="header bgr-responsive" style="background-image: url(https://via.placeholder.com/1280x720/000000/000000)">
+    `<div class="header bgr-responsive" style="background-image: url(https://via.placeholder.com/1280x720/000000/000000)">
         <bg-resource media="(min-width: 1025px) "
             srcset="https://via.placeholder.com/1280x720/000000/000000"></bg-resource>
         <bg-resource media="(min-width: 0) and (max-width: 639px)" size="cover"
