@@ -4,7 +4,7 @@
 # 📚 How to use
 <pre>
 <code><div class="header bgr-responsive" style="background-image: url(https://via.placeholder.com/1280x720/000000/000000)">
-  <bg-resource media="(min-width: 1025px) "
+  `<bg-resource media="(min-width: 1025px) "`
       srcset="https://via.placeholder.com/1280x720/000000/000000"></bg-resource>
   <bg-resource media="(min-width: 0) and (max-width: 639px)" size="cover"
       srcset="https://via.placeholder.com/1280x720/ff0000/ff0000"></bg-resource>
