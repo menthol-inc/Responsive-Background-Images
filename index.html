@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>Responsive Background Images</title>
+    <meta name="description" content="">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+
+    <link rel="stylesheet" href="assets/css/style.css?v=1">
+</head>
+<body>
+    
+
+    <div class="header bgr-responsive" style="background-image: url(https://via.placeholder.com/1280x720/000000/000000)">
+        <bg-resource media="(min-width: 1025px) "
+            srcset="https://via.placeholder.com/1280x720/000000/000000"></bg-resource>
+        <bg-resource media="(min-width: 0) and (max-width: 639px)" size="cover"
+            srcset="https://via.placeholder.com/1280x720/ff0000/ff0000"></bg-resource>
+        <bg-resource media="(min-width: 640px) and (max-width: 1024px)" size="cover"
+            srcset="https://via.placeholder.com/1024x576/ffff00/ffff00"></bg-resource>
+
+    </div>
+
+    <div class="content">
+        <p class="lorem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui debitis maxime molestias autem necessitatibus odio
+            harum amet ullam, corporis, doloremque quo similique dolor molestiae. Accusamus quo placeat enim facilis illo?
+        </p>
+
+        <p class="lorem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui debitis maxime molestias autem necessitatibus odio
+            harum amet ullam, corporis, doloremque quo similique dolor molestiae. Accusamus quo placeat enim facilis illo?
+        </p>
+
+        <p class="lorem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui debitis maxime molestias autem necessitatibus odio
+            harum amet ullam, corporis, doloremque quo similique dolor molestiae. Accusamus quo placeat enim facilis illo?
+        </p>
+
+        <p class="lorem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui debitis maxime molestias autem necessitatibus odio
+            harum amet ullam, corporis, doloremque quo similique dolor molestiae. Accusamus quo placeat enim facilis illo?
+        </p>
+    </div>
+
+    <div class="wrapper-bg bgr-responsive">
+        <bg-resource media="(min-width: 1025px) "
+            srcset="https://via.placeholder.com/1280x720/000000/000000"></bg-resource>
+        <bg-resource media="(min-width: 0) and (max-width: 639px)" size="cover"
+            srcset="https://via.placeholder.com/1280x720/ff0000/ff0000"></bg-resource>
+        <bg-resource media="(min-width: 640px) and (max-width: 1024px)" size="cover"
+            srcset="https://via.placeholder.com/1024x576/ffff00/ffff00"></bg-resource>
+
+        <div class="content">
+            <p class="lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui debitis maxime molestias autem necessitatibus odio
+                harum amet ullam, corporis, doloremque quo similique dolor molestiae. Accusamus quo placeat enim facilis illo?
+            </p>
+
+            <p class="lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui debitis maxime molestias autem necessitatibus odio
+                harum amet ullam, corporis, doloremque quo similique dolor molestiae. Accusamus quo placeat enim facilis illo?
+            </p>
+        </div>
+    </div>
+
+    <!-- insert javascript script -->      
+    <script src="assets/js/libraries/responsive-background-images/responsive-background-images.js" ></script>
+    <script src="assets/js/main.js?v=1" ></script>
+</body>
+</html>
